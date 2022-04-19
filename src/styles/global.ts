@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   body {
     position: relative;
-    min-height: 100%;
+    min-height: 100vh;
     font-size: 14px;
     color: #333;
     font-family: sans-serif;

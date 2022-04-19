@@ -3,13 +3,14 @@ import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from './styles/global'
 import theme from './styles/theme'
-import Header from './components/Header';
+
+import Home from './templates/Home';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <Header />
+        <Home/>
         <GlobalStyle />
       </div>
     </ThemeProvider>
